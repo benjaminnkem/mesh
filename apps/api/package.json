@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node init && nest build",
-    "dev": "node init && nest start --watch",
-    "start": "node init && node dist/src/main.js",
+    "build": "nest build",
+    "dev": "nest start --watch",
+    "start": "node dist/src/main.js",
     "lint": "eslint \"src/**/*.ts\"",
     "lint:fix": "eslint \"src/**/*.ts\" --fix",
     "typecheck": "tsc --noEmit",
