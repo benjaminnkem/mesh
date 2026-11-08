@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node init && hardhat compile && ts-node scripts/export-abi.ts",
+    "build": "hardhat compile && ts-node scripts/export-abi.ts",
     "test": "hardhat test",
     "typecheck": "tsc --noEmit",
     "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
